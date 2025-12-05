@@ -373,7 +373,7 @@
         // SYMBOLES suggérés : ↓ ⊙ ↑ ⚠ ☠ ✖
         // ========================================
 
-                // ========== PSYCHÉDÉLIQUES ENTRE EUX ==========
+        // ========== PSYCHÉDÉLIQUES ENTRE EUX ==========
         setInteraction('LSD', 'Mushrooms', 'low-risk-up', '↑', 
             'EFFETS AMPLIFIÉS : Visuels beaucoup plus intenses, pensées plus profondes, confusion accrue, risque de bad trip augmenté.');
 
@@ -970,14 +970,344 @@
         setInteraction('GHB/GBL', 'LSD', 'unsafe', '☠', 
             'DANGER : Trip confus et désagréable, risque de perte de conscience, amnésie.');
 
-        // ========================================
-        // 📝 AJOUTEZ VOS PROPRES INTERACTIONS :
-        // ========================================
-        
-        // setInteraction('Cannabis', 'Alcohol', 'caution', '⚠', 'Votre description ici...');
-        // setInteraction('MDMA', 'Ketamine', 'caution', '⚠', 'Votre description ici...');
-        // ... etc.
-		
+        setInteraction('GHB/GBL', 'Mushrooms', 'unsafe', '☠', 
+            'DANGER : Expérience confuse, sédation pendant trip, risque de perte de conscience, nausées.');
+
+        setInteraction('GHB/GBL', 'Cannabis', 'unsafe', '☠', 
+            'DANGER : Sédation excessive, nausées, étourdissements extrêmes, risque de perte de conscience.');
+
+        setInteraction('GHB/GBL', 'Ketamine', 'dangerous', '✖', 
+            'DANGER MORTEL : Dépression respiratoire imprévisible, coma, perte de conscience totale.');
+
+        setInteraction('GHB/GBL', 'MDMA', 'caution', '⚠', 
+            'EFFETS DANGEREUX : Nausées, respiration ralentie, risque de surdose GHB masqué par MDMA.');
+
+        setInteraction('GHB/GBL', 'Amphetamines', 'caution', '⚠', 
+            'EFFETS MASQUÉS : Stimulants cachent sédation, risque de surdose GHB, charge cardiaque.');
+
+        setInteraction('GHB/GBL', 'Cocaine', 'unsafe', '☠', 
+            'DANGER : Effets masqués, risque de surdose GHB, charge cardiaque dangereuse.');
+
+        setInteraction('GHB/GBL', 'Tramadol', 'dangerous', '✖', 
+            'DANGER MORTEL : Dépression respiratoire sévère, convulsions, coma, décès.');
+
+        setInteraction('Opioids', 'LSD', 'low-risk-down', '↓', 
+            'EFFETS RÉDUITS : Trip atténué, confusion, nausées, léthargie pendant psychédélie.');
+
+        setInteraction('Opioids', 'Mushrooms', 'low-risk-down', '↓', 
+            'EFFETS RÉDUITS : Effets psychédéliques diminués, nausées réduites mais trip affaibli.');
+
+        setInteraction('Opioids', 'Cannabis', 'low-risk-neutral', '⊙', 
+            'EFFETS AMPLIFIÉS : Sédation accrue, euphorie augmentée, nausées possibles, somnolence.');
+
+        setInteraction('Opioids', 'Ketamine', 'dangerous', '✖', 
+            'DANGER MORTEL : Dépression respiratoire sévère, perte de conscience, coma, décès.');
+
+        setInteraction('Opioids', 'MDMA', 'unsafe', '☠', 
+            'DANGER : Dépression respiratoire, masquage effets, risque de surdose opioïde, nausées.');
+
+        setInteraction('Opioids', 'Amphetamines', 'dangerous', '✖', 
+            'DANGER : Charge cardiaque + dépression respiratoire, effets masqués, surdose facile.');
+
+        setInteraction('Opioids', 'Cocaine', 'dangerous', '✖', 
+            'DANGER : Speedball - très addictif et mortel, charge cardiaque + dépression respiratoire.');
+
+        setInteraction('Opioids', 'Tramadol', 'dangerous', '✖', 
+            'DANGER MORTEL : Dépression respiratoire extrême, convulsions, surdose facile, décès.');
+
+        setInteraction('Tramadol', 'LSD', 'low-risk-down', '↓', 
+            'EFFETS RÉDUITS : Trip atténué, risque faible de syndrome sérotoninergique, nausées.');
+
+        setInteraction('Tramadol', 'Mushrooms', 'low-risk-down', '↓', 
+            'EFFETS RÉDUITS : Effets psychédéliques diminués, risque faible de syndrome sérotoninergique.');
+
+        setInteraction('Tramadol', 'Cannabis', 'low-risk-neutral', '⊙', 
+            'EFFETS AMPLIFIÉS : Sédation accrue, nausées possibles, somnolence, confusion légère.');
+
+        setInteraction('Tramadol', 'Ketamine', 'unsafe', '☠', 
+            'DANGER : Dépression respiratoire, confusion extrême, nausées, risque de convulsions.');
+
+        setInteraction('Tramadol', '4-MMC', 'dangerous', '✖', 
+            'DANGER MORTEL : Syndrome sérotoninergique, convulsions, hyperthermie.');
+
+        setInteraction('Tramadol', 'Alcohol', 'dangerous', '✖', 
+            'DANGER MORTEL : Dépression respiratoire, convulsions augmentées, nausées, coma.');
+
+        setInteraction('Tramadol', 'GHB/GBL', 'dangerous', '✖', 
+            'DANGER MORTEL : Dépression respiratoire sévère, convulsions, perte de conscience.');
+
+        setInteraction('Tramadol', 'Benzodiazepines', 'dangerous', '✖', 
+            'DANGER MORTEL : Dépression respiratoire sévère, convulsions, coma, décès fréquents.');
+
+        setInteraction('Benzodiazepines', 'LSD', 'low-risk-down', '↓', 
+            'EFFETS RÉDUITS : Trip fortement diminué ou annulé, utile pour bad trip, somnolence.');
+
+        setInteraction('Benzodiazepines', 'Mushrooms', 'low-risk-down', '↓', 
+            'EFFETS RÉDUITS : Effets psychédéliques atténués, anxiété réduite, trip plus calme.');
+
+        setInteraction('Benzodiazepines', 'DMT', 'low-risk-down', '↓', 
+            'EFFETS RÉDUITS : Breakthrough plus difficile, anxiété pré-voyage réduite, expérience atténuée.');
+
+        setInteraction('Benzodiazepines', 'Cannabis', 'caution', '⚠', 
+            'EFFETS AMPLIFIÉS : Sédation importante, somnolence extrême, amnésie possible, confusion.');
+
+        setInteraction('Benzodiazepines', 'Ketamine', 'unsafe', '☠', 
+            'DANGER : Sédation excessive, amnésie totale, dépression respiratoire, risque de chute.');
+
+        setInteraction('Benzodiazepines', 'a-PVP', 'unsafe', '☠', 
+            'DANGER : Déshinibition extrême, comportements dangereux, amnésie, risque de surdose.');
+
+        setInteraction('Benzodiazepines', '4-MMC', 'unsafe', '☠', 
+            'DANGER : Effets masqués, risque de surdose, amnésie, dépression respiratoire.');
+
+        setInteraction('Benzodiazepines', 'Caffeine', 'low-risk-down', '↓', 
+            'EFFETS RÉDUITS : Caféine diminue sédation, peut causer rebond d\'anxiété.');
+
+        setInteraction('Benzodiazepines', 'Tramadol', 'dangerous', '✖', 
+            'DANGER MORTEL : Dépression respiratoire sévère, convulsions, coma, décès.');
+
+        // ========== IMAO + TOUT LE RESTE ==========
+        setInteraction('MAOI', 'LSD', 'caution', '⚠', 
+            'EFFETS AMPLIFIÉS : Trip beaucoup plus intense et long, risque faible mais existant de problèmes.');
+
+        setInteraction('MAOI', 'Mushrooms', 'low-risk-up', '↑', 
+            'EFFETS AMPLIFIÉS : Pharmahuasca - trip intense et long, potentialisation importante, nausées.');
+
+        setInteraction('MAOI', 'DMT', 'low-risk-up', '↑', 
+            'EFFETS AMPLIFIÉS : Ayahuasca - DMT actif oralement, trip long (4-6h), purge, expérience profonde.');
+
+        setInteraction('MAOI', 'Mescaline', 'caution', '⚠', 
+            'EFFETS AMPLIFIÉS : Trip très intense et long, nausées importantes, expérience éprouvante.');
+
+        setInteraction('MAOI', '5-MeO-xxT', 'unsafe', '☠', 
+            'DANGER : Expérience extrêmement intense, risque de surcharge sérotoninergique, imprévisible.');
+
+        setInteraction('MAOI', 'Cannabis', 'caution', '⚠', 
+            'EFFETS AMPLIFIÉS : Effets cannabis potentialisés, confusion possible, durée augmentée.');
+
+        setInteraction('MAOI', 'Ketamine', 'unsafe', '☠', 
+            'DANGER : Interaction peu étudiée, risque d\'hypertension, confusion extrême.');
+
+        setInteraction('MAOI', '4-MMC', 'dangerous', '✖', 
+            'DANGER MORTEL : Syndrome sérotoninergique, crise hypertensive, hyperthermie, décès.');
+
+        setInteraction('MAOI', 'a-PVP', 'dangerous', '✖', 
+            'DANGER MORTEL : Crise hypertensive extrême, AVC, syndrome sérotoninergique, décès.');
+
+        setInteraction('MAOI', 'Caffeine', 'caution', '⚠', 
+            'EFFETS AMPLIFIÉS : Anxiété augmentée, hypertension possible, nervosité extrême.');
+
+        setInteraction('MAOI', 'Alcohol', 'caution', '⚠', 
+            'EFFETS AMPLIFIÉS : Nausées importantes, interactions avec tyramine, maux de tête.');
+
+        setInteraction('MAOI', 'GHB/GBL', 'unsafe', '☠', 
+            'DANGER : Interaction peu étudiée, risque de dépression respiratoire imprévisible.');
+
+        setInteraction('MAOI', 'Opioids', 'dangerous', '✖', 
+            'DANGER : Potentialisation dangereuse, risque de dépression respiratoire sévère.');
+
+        setInteraction('MAOI', 'Benzodiazepines', 'caution', '⚠', 
+            'EFFETS AMPLIFIÉS : Sédation potentialisée, somnolence accrue, confusion.');
+
+        // ========== SSRI + TOUT LE RESTE ==========
+        setInteraction('SSRI', 'DOx', 'caution', '⚠', 
+            'EFFETS RÉDUITS : Trip affaibli, risque faible de syndrome sérotoninergique.');
+
+        setInteraction('SSRI', 'NBOMe', 'unsafe', '☠', 
+            'DANGER : NBOMe déjà risqué + risque de syndrome sérotoninergique, convulsions.');
+
+        setInteraction('SSRI', '2C-x', 'caution', '⚠', 
+            'EFFETS RÉDUITS : Trip diminué, risque léger de syndrome sérotoninergique.');
+
+        setInteraction('SSRI', '5-MeO-xxT', 'dangerous', '✖', 
+            'DANGER : Risque important de syndrome sérotoninergique avec 5-MeO, peut être grave.');
+
+        setInteraction('SSRI', 'Mescaline', 'caution', '⚠', 
+            'EFFETS RÉDUITS : Trip affaibli, nausées, risque faible de problèmes sérotoninergiques.');
+
+        setInteraction('SSRI', 'DMT', 'low-risk-down', '↓', 
+            'EFFETS RÉDUITS : Breakthrough plus difficile, risque très faible de syndrome sérotoninergique.');
+
+        setInteraction('SSRI', 'Cannabis', 'low-risk-neutral', '⊙', 
+            'EFFETS NEUTRES : Peu d\'interaction notable, effets cannabis normaux.');
+
+        setInteraction('SSRI', 'Ketamine', 'low-risk-neutral', '⊙', 
+            'EFFETS NEUTRES : Peu d\'interaction, effets kétamine normaux.');
+
+        setInteraction('SSRI', 'DXM', 'dangerous', '✖', 
+            'DANGER MORTEL : Syndrome sérotoninergique garanti, confusion, convulsions, hyperthermie.');
+
+        setInteraction('SSRI', 'Amphetamines', 'caution', '⚠', 
+            'EFFETS RÉDUITS/RISQUE : Effets stimulants diminués, risque léger de syndrome sérotoninergique.');
+
+        setInteraction('SSRI', 'Cocaine', 'caution', '⚠', 
+            'EFFETS RÉDUITS/RISQUE : Euphorie diminuée, risque faible de syndrome sérotoninergique.');
+
+        setInteraction('SSRI', 'a-PVP', 'unsafe', '☠', 
+            'DANGER : Risque de syndrome sérotoninergique, psychose, comportements dangereux.');
+
+        setInteraction('SSRI', '4-MMC', 'dangerous', '✖', 
+            'DANGER : Risque élevé de syndrome sérotoninergique, neurotoxicité, hyperthermie.');
+
+        setInteraction('SSRI', 'Caffeine', 'low-risk-neutral', '⊙', 
+            'EFFETS NEUTRES : Peut augmenter légèrement anxiété mais généralement sûr.');
+
+        setInteraction('SSRI', 'Alcohol', 'caution', '⚠', 
+            'EFFETS AMPLIFIÉS : Sédation accrue, dépression augmentée, efficacité SSRI réduite.');
+
+        setInteraction('SSRI', 'GHB/GBL', 'caution', '⚠', 
+            'EFFETS AMPLIFIÉS : Sédation potentialisée, confusion, risque de dépression respiratoire.');
+
+        setInteraction('SSRI', 'Opioids', 'caution', '⚠', 
+            'EFFETS AMPLIFIÉS : Sédation accrue, nausées, confusion, risque faible de complications.');
+
+        setInteraction('SSRI', 'Benzodiazepines', 'low-risk-neutral', '⊙', 
+            'EFFETS AMPLIFIÉS : Sédation légèrement augmentée, généralement considéré sûr.');
+
+        setInteraction('SSRI', 'MAOI', 'dangerous', '✖', 
+            'DANGER MORTEL : Syndrome sérotoninergique garanti et sévère, peut être fatal. NE JAMAIS COMBINER.');
+
+        // ========== INTERACTIONS MANQUANTES DIVERSES ==========
+        setInteraction('DOx', 'Cannabis', 'caution', '⚠', 
+            'EFFETS AMPLIFIÉS : Anxiété accrue, confusion, vasoconstriction, nausées, durée très longue.');
+
+        setInteraction('DOx', '5-MeO-xxT', 'unsafe', '☠', 
+            'DANGER : Stimulation cardiaque excessive, vasoconstriction, expérience très longue et intense.');
+
+        setInteraction('DOx', 'Ketamine', 'unsafe', '☠', 
+            'DANGER : Confusion extrême, vasoconstriction, durée très longue, risque de blessure.');
+
+        setInteraction('DOx', 'MDMA', 'unsafe', '☠', 
+            'DANGER : Neurotoxicité sévère, vasoconstriction, surchauffe, durée épuisante (15h+).');
+
+        setInteraction('DOx', 'Amphetamines', 'dangerous', '✖', 
+            'DANGER : Charge cardiaque excessive, vasoconstriction extrême, hypertension, anxiété.');
+
+        setInteraction('DOx', 'Cocaine', 'dangerous', '✖', 
+            'DANGER : Vasoconstriction mortelle, charge cardiaque, risque d\'AVC, durée très longue.');
+
+        setInteraction('DOx', 'Alcohol', 'unsafe', '☠', 
+            'DANGER : Nausées extrêmes, durée très longue désagréable, confusion, déshydratation.');
+
+        setInteraction('DOx', 'Tramadol', 'unsafe', '☠', 
+            'DANGER : Risque de convulsions, syndrome sérotoninergique possible, vasoconstriction.');
+
+        setInteraction('NBOMe', 'Cannabis', 'unsafe', '☠', 
+            'DANGER : Anxiété extrême, risque de convulsions augmenté, vasoconstriction, bad trip.');
+
+        setInteraction('NBOMe', 'Ketamine', 'dangerous', '✖', 
+            'DANGER MORTEL : Vasoconstriction + dépression respiratoire, convulsions, très dangereux.');
+
+        setInteraction('NBOMe', 'MDMA', 'dangerous', '✖', 
+            'DANGER MORTEL : Vasoconstriction extrême, convulsions, hyperthermie, décès fréquents.');
+
+        setInteraction('NBOMe', 'Amphetamines', 'dangerous', '✖', 
+            'DANGER MORTEL : Vasoconstriction mortelle, convulsions, hypertension, AVC, crise cardiaque.');
+
+        setInteraction('NBOMe', 'Cocaine', 'dangerous', '✖', 
+            'DANGER MORTEL : Vasoconstriction extrême, convulsions garanties, crise cardiaque, AVC.');
+
+        setInteraction('NBOMe', 'Alcohol', 'dangerous', '✖', 
+            'DANGER : Nausées extrêmes, vomissements, convulsions, vasoconstriction, très risqué.');
+
+        setInteraction('NBOMe', 'Tramadol', 'dangerous', '✖', 
+            'DANGER MORTEL : Convulsions garanties, syndrome sérotoninergique, vasoconstriction.');
+
+        setInteraction('2C-x', 'Cannabis', 'caution', '⚠', 
+            'EFFETS AMPLIFIÉS : Anxiété accrue, confusion, nausées possibles, visuels plus intenses.');
+
+        setInteraction('2C-x', 'Ketamine', 'caution', '⚠', 
+            'EFFETS AMPLIFIÉS : Confusion importante, nausées, dissociation étrange, désorientation.');
+
+        setInteraction('2C-x', 'MDMA', 'caution', '⚠', 
+            'EFFETS AMPLIFIÉS : Neurotoxicité augmentée, surchauffe possible, stimulation cardiaque.');
+
+        setInteraction('2C-x', 'Amphetamines', 'unsafe', '☠', 
+            'DANGER : Charge cardiaque excessive, vasoconstriction, anxiété extrême, hypertension.');
+
+        setInteraction('2C-x', 'Cocaine', 'unsafe', '☠', 
+            'DANGER : Charge cardiaque dangereuse, vasoconstriction, anxiété extrême, risque cardiaque.');
+
+        setInteraction('2C-x', 'Alcohol', 'caution', '⚠', 
+            'EFFETS RÉDUITS : Trip affaibli, nausées accrues, confusion, déshydratation.');
+
+        setInteraction('2C-x', 'Tramadol', 'unsafe', '☠', 
+            'DANGER : Risque de syndrome sérotoninergique, convulsions possibles.');
+
+        setInteraction('2C-T-x', 'Cannabis', 'caution', '⚠', 
+            'EFFETS AMPLIFIÉS : Anxiété, confusion, nausées importantes, expérience imprévisible.');
+
+        setInteraction('2C-T-x', 'MDMA', 'unsafe', '☠', 
+            'DANGER : Toxicité cardiaque, surchauffe, nausées, combinaison peu étudiée.');
+
+        setInteraction('2C-T-x', 'Tramadol', 'dangerous', '✖', 
+            'DANGER : Syndrome sérotoninergique, convulsions, interaction dangereuse et peu étudiée.');
+
+        setInteraction('5-MeO-xxT', 'Cannabis', 'caution', '⚠', 
+            'EFFETS AMPLIFIÉS : Anxiété importante, expérience plus confuse, intégration difficile.');
+
+        setInteraction('5-MeO-xxT', 'Ketamine', 'unsafe', '☠', 
+            'DANGER : Expérience écrasante et traumatisante, dissociation + ego death extrême.');
+
+        setInteraction('5-MeO-xxT', 'MDMA', 'dangerous', '✖', 
+            'DANGER MORTEL : Syndrome sérotoninergique probable, hyperthermie, expérience dangereuse.');
+
+        setInteraction('5-MeO-xxT', 'Tramadol', 'dangerous', '✖', 
+            'DANGER MORTEL : Syndrome sérotoninergique garanti, convulsions, hyperthermie.');
+
+        // ========== DERNIÈRES COMBINAISONS ==========
+        setInteraction('Mescaline', 'Ketamine', 'caution', '⚠', 
+            'EFFETS AMPLIFIÉS : Nausées importantes, confusion, durée très longue et difficile.');
+
+        setInteraction('Mescaline', 'MDMA', 'caution', '⚠', 
+            'EFFETS AMPLIFIÉS : Nausées sévères, surchauffe possible, durée longue, déshydratation.');
+
+        setInteraction('Mescaline', 'Amphetamines', 'caution', '⚠', 
+            'EFFETS AMPLIFIÉS : Stimulation cardiaque excessive, nausées, vasoconstriction, anxiété.');
+
+        setInteraction('Mescaline', 'Cocaine', 'unsafe', '☠', 
+            'DANGER : Charge cardiaque dangereuse, nausées extrêmes, vasoconstriction, anxiété.');
+
+        setInteraction('Mescaline', 'Tramadol', 'caution', '⚠', 
+            'EFFETS AMPLIFIÉS : Nausées extrêmes, risque léger de syndrome sérotoninergique.');
+
+        setInteraction('Cannabis', 'MXE', 'caution', '⚠', 
+            'EFFETS AMPLIFIÉS : Confusion accrue, nausées, dissociation plus intense, désorientation.');
+
+        setInteraction('Cannabis', 'DXM', 'caution', '⚠', 
+            'EFFETS AMPLIFIÉS : Confusion importante, nausées, dissociation accrue, anxiété possible.');
+
+        setInteraction('Cannabis', 'N2O', 'low-risk-up', '↑', 
+            'EFFETS AMPLIFIÉS : Euphorie intense brève, visuels yeux fermés, rires, sensation de flottement.');
+
+        setInteraction('Cannabis', 'a-PVP', 'unsafe', '☠', 
+            'DANGER : Paranoïa extrême, anxiété massive, risque de psychose, expérience terrifiante.');
+
+        setInteraction('Cannabis', '4-MMC', 'caution', '⚠', 
+            'EFFETS AMPLIFIÉS : Anxiété possible, tachycardie, confusion légère.');
+
+        setInteraction('Cannabis', 'Caffeine', 'low-risk-neutral', '⊙', 
+            'EFFETS VARIABLES : Peut augmenter anxiété ou améliorer concentration selon personne.');
+
+        setInteraction('Cannabis', 'GHB/GBL', 'unsafe', '☠', 
+            'DANGER : Sédation excessive, nausées, étourdissements, risque de perte de conscience.');
+
+        setInteraction('Cannabis', 'Opioids', 'low-risk-neutral', '⊙', 
+            'EFFETS AMPLIFIÉS : Sédation accrue, euphorie augmentée, nausées possibles.');
+
+        setInteraction('Cannabis', 'Tramadol', 'low-risk-neutral', '⊙', 
+            'EFFETS AMPLIFIÉS : Sédation accrue, nausées possibles, somnolence.');
+
+        setInteraction('Cannabis', 'Benzodiazepines', 'caution', '⚠', 
+            'EFFETS AMPLIFIÉS : Sédation importante, somnolence extrême, amnésie possible.');
+
+        setInteraction('Cannabis', 'MAOI', 'caution', '⚠', 
+            'EFFETS AMPLIFIÉS : Cannabis potentialisé, effets plus longs, confusion possible.');
+
+        setInteraction('Cannabis', 'SSRI', 'low-risk-neutral', '⊙', 
+            'EFFETS NEUTRES : Peu d\'interaction notable, effets cannabis normaux.');
+
+        // INTERACTIONS DÉJÀ COUVERTES DANS L'AUTRE SENS (symétrie automatique)
 
         // ========================================
         // CODE DE GÉNÉRATION DU TABLEAU
