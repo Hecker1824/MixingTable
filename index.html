@@ -373,7 +373,7 @@
         // SYMBOLES suggérés : ↓ ⊙ ↑ ⚠ ☠ ✖
         // ========================================
 
-        // ========== PSYCHÉDÉLIQUES ENTRE EUX ==========
+                // ========== PSYCHÉDÉLIQUES ENTRE EUX ==========
         setInteraction('LSD', 'Mushrooms', 'low-risk-up', '↑', 
             'EFFETS AMPLIFIÉS : Visuels beaucoup plus intenses, pensées plus profondes, confusion accrue, risque de bad trip augmenté.');
 
@@ -572,6 +572,403 @@
 
         setInteraction('Benzodiazepines', 'Amphetamines', 'caution', '⚠', 
             'EFFETS CONTRADICTOIRES : Annulation partielle des effets, risque de surconsommer l\'un ou l\'autre.');
+
+        // ========== PSYCHÉDÉLIQUES RESTANTS ==========
+        setInteraction('DMT', 'Mescaline', 'low-risk-up', '↑', 
+            'EFFETS AMPLIFIÉS : Visuels extrêmement complexes, breakthrough facilité, expérience mystique profonde.');
+
+        setInteraction('DMT', '2C-x', 'low-risk-up', '↑', 
+            'EFFETS AMPLIFIÉS : Géométrie visuelle intense, stimulation mentale importante, durée du 2C prolonge l\'après-DMT.');
+
+        setInteraction('DMT', 'DOx', 'caution', '⚠', 
+            'EFFETS AMPLIFIÉS : Stimulation excessive, anxiété pré-DMT augmentée, durée très longue du DOx.');
+
+        setInteraction('DMT', 'NBOMe', 'unsafe', '☠', 
+            'DANGER : NBOMe déjà dangereux seul, combinaison imprévisible, risque de vasoconstriction et convulsions.');
+
+        setInteraction('DMT', '2C-T-x', 'caution', '⚠', 
+            'EFFETS AMPLIFIÉS : Expérience imprévisible, nausées possibles, confusion importante.');
+
+        setInteraction('DMT', '5-MeO-xxT', 'unsafe', '☠', 
+            'DANGER : Deux tryptamines puissantes, risque de surdose sérotoninergique, expérience écrasante.');
+
+        setInteraction('Mescaline', '2C-x', 'caution', '⚠', 
+            'EFFETS AMPLIFIÉS : Stimulation cardiaque augmentée, nausées accrues, durée très longue (16h+).');
+
+        setInteraction('Mescaline', 'DOx', 'caution', '⚠', 
+            'EFFETS AMPLIFIÉS : Charge corporelle importante, vasoconstriction, durée extrême (20h+).');
+
+        setInteraction('Mescaline', 'NBOMe', 'dangerous', '✖', 
+            'DANGER MORTEL : Vasoconstriction dangereuse, risque de convulsions, charge cardiaque excessive.');
+
+        setInteraction('Mescaline', '2C-T-x', 'caution', '⚠', 
+            'EFFETS AMPLIFIÉS : Nausées importantes, durée très longue, stimulation corporelle excessive.');
+
+        setInteraction('DOx', 'NBOMe', 'dangerous', '✖', 
+            'DANGER MORTEL : Vasoconstriction extrême, hypertension, risque de convulsions et AVC.');
+
+        setInteraction('DOx', '2C-x', 'caution', '⚠', 
+            'EFFETS AMPLIFIÉS : Stimulation excessive, vasoconstriction, anxiété, durée très longue.');
+
+        setInteraction('DOx', '2C-T-x', 'caution', '⚠', 
+            'EFFETS AMPLIFIÉS : Charge corporelle intense, durée extrême, nausées, confusion.');
+
+        setInteraction('DOx', '5-MeO-xxT', 'caution', '⚠', 
+            'EFFETS AMPLIFIÉS : Stimulation cardiaque dangereuse, vasoconstriction, durée très longue.');
+
+        setInteraction('NBOMe', '2C-x', 'dangerous', '✖', 
+            'DANGER : NBOMe déjà très risqué, combinaison imprévisible, risque de convulsions et overdose.');
+
+        setInteraction('NBOMe', '2C-T-x', 'dangerous', '✖', 
+            'DANGER MORTEL : Combinaison très dangereuse, convulsions, vasoconstriction extrême.');
+
+        setInteraction('NBOMe', '5-MeO-xxT', 'dangerous', '✖', 
+            'DANGER MORTEL : Surcharge sérotoninergique, convulsions, risque de décès important.');
+
+        setInteraction('2C-x', '2C-T-x', 'caution', '⚠', 
+            'EFFETS AMPLIFIÉS : Nausées augmentées, durée longue, charge corporelle importante.');
+
+        setInteraction('2C-x', '5-MeO-xxT', 'caution', '⚠', 
+            'EFFETS AMPLIFIÉS : Stimulation intense, visuels puissants, risque de surcharge sensorielle.');
+
+        setInteraction('2C-T-x', '5-MeO-xxT', 'unsafe', '☠', 
+            'DANGER : Combinaison peu étudiée, risque de toxicité sérotoninergique, imprévisible.');
+
+        // ========== DISSOCIATIFS + PSYCHÉDÉLIQUES MANQUANTS ==========
+        setInteraction('Ketamine', 'DOx', 'unsafe', '☠', 
+            'DANGER : Durée très longue, confusion extrême, risque de blessure, vasoconstriction + dissociation.');
+
+        setInteraction('Ketamine', 'NBOMe', 'dangerous', '✖', 
+            'DANGER MORTEL : Vasoconstriction + dépression respiratoire, risque de convulsions, très dangereux.');
+
+        setInteraction('Ketamine', '2C-x', 'caution', '⚠', 
+            'EFFETS AMPLIFIÉS : Confusion importante, nausées, dissociation étrange, désorientation spatiale.');
+
+        setInteraction('Ketamine', '2C-T-x', 'caution', '⚠', 
+            'EFFETS AMPLIFIÉS : Expérience chaotique, nausées sévères, confusion mentale extrême.');
+
+        setInteraction('Ketamine', '5-MeO-xxT', 'unsafe', '☠', 
+            'DANGER : Expérience écrasante, dissociation + ego death, risque de traumatisme psychologique.');
+
+        setInteraction('Ketamine', 'Mescaline', 'caution', '⚠', 
+            'EFFETS AMPLIFIÉS : Nausées importantes, confusion, expérience longue et difficile.');
+
+        setInteraction('MXE', 'LSD', 'caution', '⚠', 
+            'EFFETS AMPLIFIÉS : Dissociation prolongée, confusion, visuels fractals intenses, mania possible.');
+
+        setInteraction('MXE', 'Mushrooms', 'caution', '⚠', 
+            'EFFETS AMPLIFIÉS : Expérience bizarre et désorientante, perte de sens du corps, confusion.');
+
+        setInteraction('MXE', 'DMT', 'caution', '⚠', 
+            'EFFETS AMPLIFIÉS : Breakthrough étrange, dissociation post-DMT prolongée, confusion importante.');
+
+        setInteraction('MXE', 'Cannabis', 'caution', '⚠', 
+            'EFFETS AMPLIFIÉS : Confusion mentale accrue, nausées, dissociation plus intense.');
+
+        setInteraction('MXE', 'MDMA', 'unsafe', '☠', 
+            'DANGER : Neurotoxicité augmentée, surchauffe corporelle, confusion, risque de mania.');
+
+        setInteraction('MXE', 'Amphetamines', 'unsafe', '☠', 
+            'DANGER : Charge cardiaque excessive, mania, anxiété extrême, comportements dangereux.');
+
+        setInteraction('MXE', 'Cocaine', 'unsafe', '☠', 
+            'DANGER : Risque cardiaque important, anxiété extrême, comportements imprévisibles.');
+
+        setInteraction('MXE', 'Alcohol', 'dangerous', '✖', 
+            'DANGER MORTEL : Vomissements, risque d\'étouffement, dépression respiratoire, amnésie totale.');
+
+        setInteraction('MXE', 'GHB/GBL', 'dangerous', '✖', 
+            'DANGER MORTEL : Dépression respiratoire, perte de conscience, coma possible.');
+
+        setInteraction('MXE', 'Benzodiazepines', 'unsafe', '☠', 
+            'DANGER : Sédation excessive, amnésie complète, risque de chute, confusion extrême.');
+
+        setInteraction('MXE', 'Opioids', 'dangerous', '✖', 
+            'DANGER MORTEL : Dépression respiratoire sévère, risque de décès par overdose.');
+
+        setInteraction('MXE', 'Tramadol', 'dangerous', '✖', 
+            'DANGER MORTEL : Dépression respiratoire + risque de convulsions, combinaison très dangereuse.');
+
+        setInteraction('MXE', 'N2O', 'caution', '⚠', 
+            'EFFETS AMPLIFIÉS : Dissociation très profonde, perte de conscience possible, risque de chute.');
+
+        setInteraction('DXM', 'LSD', 'caution', '⚠', 
+            'EFFETS AMPLIFIÉS : Confusion extrême, nausées importantes, expérience chaotique.');
+
+        setInteraction('DXM', 'Mushrooms', 'caution', '⚠', 
+            'EFFETS AMPLIFIÉS : Nausées sévères, confusion mentale, expérience désorientante.');
+
+        setInteraction('DXM', 'DMT', 'caution', '⚠', 
+            'EFFETS AMPLIFIÉS : Expérience bizarre, dissociation post-DMT étrange, confusion.');
+
+        setInteraction('DXM', 'Mescaline', 'caution', '⚠', 
+            'EFFETS AMPLIFIÉS : Nausées extrêmes, confusion, durée très longue et difficile.');
+
+        setInteraction('DXM', 'Cannabis', 'caution', '⚠', 
+            'EFFETS AMPLIFIÉS : Confusion accrue, nausées, dissociation plus intense, anxiété possible.');
+
+        setInteraction('DXM', 'MDMA', 'dangerous', '✖', 
+            'DANGER MORTEL : Syndrome sérotoninergique, hyperthermie, neurotoxicité, risque de décès.');
+
+        setInteraction('DXM', 'Amphetamines', 'dangerous', '✖', 
+            'DANGER : Charge cardiaque excessive, hypertension, risque de syndrome sérotoninergique.');
+
+        setInteraction('DXM', 'Cocaine', 'dangerous', '✖', 
+            'DANGER : Risque cardiaque important, hypertension dangereuse, anxiété extrême.');
+
+        setInteraction('DXM', 'GHB/GBL', 'dangerous', '✖', 
+            'DANGER MORTEL : Dépression respiratoire sévère, perte de conscience, coma.');
+
+        setInteraction('DXM', 'Benzodiazepines', 'unsafe', '☠', 
+            'DANGER : Sédation excessive, dépression respiratoire, amnésie, confusion extrême.');
+
+        setInteraction('DXM', 'Opioids', 'dangerous', '✖', 
+            'DANGER MORTEL : Dépression respiratoire sévère, coma, décès fréquents.');
+
+        setInteraction('DXM', 'Tramadol', 'dangerous', '✖', 
+            'DANGER MORTEL : Syndrome sérotoninergique garanti + convulsions, souvent fatal.');
+
+        setInteraction('DXM', 'N2O', 'caution', '⚠', 
+            'EFFETS AMPLIFIÉS : Dissociation intense, perte de conscience possible, risque de chute.');
+
+        setInteraction('N2O', 'DOx', 'caution', '⚠', 
+            'EFFETS AMPLIFIÉS : Visuels explosifs brefs, vasoconstriction pendant N2O, étourdissements.');
+
+        setInteraction('N2O', 'NBOMe', 'unsafe', '☠', 
+            'DANGER : Vasoconstriction + privation d\'oxygène, risque de convulsions, très dangereux.');
+
+        setInteraction('N2O', '2C-x', 'low-risk-up', '↑', 
+            'EFFETS AMPLIFIÉS : Visuels intenses brefs, sensation d\'unité, rires, légère stimulation cardiaque.');
+
+        setInteraction('N2O', 'Cannabis', 'low-risk-up', '↑', 
+            'EFFETS AMPLIFIÉS : Euphorie augmentée, visuels fermés les yeux, sensation de flottement intense.');
+
+        setInteraction('N2O', 'MDMA', 'caution', '⚠', 
+            'EFFETS AMPLIFIÉS : Euphorie intense brève, risque de surchauffe si usage répété, déshydratation.');
+
+        setInteraction('N2O', 'Amphetamines', 'caution', '⚠', 
+            'EFFETS AMPLIFIÉS : Charge cardiaque brève mais intense, étourdissements, risque de chute.');
+
+        setInteraction('N2O', 'Cocaine', 'unsafe', '☠', 
+            'DANGER : Charge cardiaque excessive, risque d\'arythmie, hypertension soudaine.');
+
+        setInteraction('N2O', 'Alcohol', 'unsafe', '☠', 
+            'DANGER : Vomissements avec risque d\'étouffement, désorientation extrême, blackout.');
+
+        setInteraction('N2O', 'GHB/GBL', 'dangerous', '✖', 
+            'DANGER MORTEL : Perte de conscience soudaine, dépression respiratoire, étouffement possible.');
+
+        setInteraction('N2O', 'Benzodiazepines', 'unsafe', '☠', 
+            'DANGER : Perte de conscience, dépression respiratoire, amnésie, chutes dangereuses.');
+
+        setInteraction('N2O', 'Opioids', 'dangerous', '✖', 
+            'DANGER MORTEL : Dépression respiratoire sévère, perte de conscience, décès possible.');
+
+        setInteraction('N2O', 'Tramadol', 'unsafe', '☠', 
+            'DANGER : Dépression respiratoire, étourdissements extrêmes, risque de chute et blessure.');
+
+        // ========== STIMULANTS + PSYCHÉDÉLIQUES MANQUANTS ==========
+        setInteraction('MDMA', 'DOx', 'unsafe', '☠', 
+            'DANGER : Neurotoxicité sévère, surchauffe, vasoconstriction, durée très longue et épuisante.');
+
+        setInteraction('MDMA', 'NBOMe', 'dangerous', '✖', 
+            'DANGER MORTEL : Vasoconstriction extrême, convulsions, hyperthermie, risque de décès.');
+
+        setInteraction('MDMA', '2C-x', 'caution', '⚠', 
+            'EFFETS AMPLIFIÉS : Neurotoxicité augmentée, surchauffe possible, stimulation cardiaque importante.');
+
+        setInteraction('MDMA', '2C-T-x', 'unsafe', '☠', 
+            'DANGER : Toxicité cardiaque, surchauffe, nausées, combinaison peu étudiée et risquée.');
+
+        setInteraction('MDMA', '5-MeO-xxT', 'dangerous', '✖', 
+            'DANGER MORTEL : Syndrome sérotoninergique possible, hyperthermie, expérience écrasante.');
+
+        setInteraction('MDMA', 'Mescaline', 'caution', '⚠', 
+            'EFFETS AMPLIFIÉS : Nausées augmentées, surchauffe possible, durée très longue, déshydratation.');
+
+        setInteraction('MDMA', 'DMT', 'low-risk-up', '↑', 
+            'EFFETS AMPLIFIÉS : Breakthrough plus doux et euphorique, empathie + géométrie DMT, expérience unique.');
+
+        setInteraction('Amphetamines', 'LSD', 'caution', '⚠', 
+            'EFFETS AMPLIFIÉS : Stimulation mentale excessive, anxiété, pensées en boucle, insomnie garantie.');
+
+        setInteraction('Amphetamines', 'Mushrooms', 'caution', '⚠', 
+            'EFFETS AMPLIFIÉS : Anxiété augmentée, stimulation corporelle désagréable, nausées accrues.');
+
+        setInteraction('Amphetamines', 'DMT', 'caution', '⚠', 
+            'EFFETS AMPLIFIÉS : Anxiété pré-voyage importante, tachycardie, intégration difficile.');
+
+        setInteraction('Amphetamines', 'Mescaline', 'caution', '⚠', 
+            'EFFETS AMPLIFIÉS : Stimulation cardiaque excessive, anxiété, nausées, vasoconstriction.');
+
+        setInteraction('Amphetamines', 'DOx', 'unsafe', '☠', 
+            'DANGER : Charge cardiaque dangereuse, vasoconstriction extrême, anxiété, durée très longue.');
+
+        setInteraction('Amphetamines', 'NBOMe', 'dangerous', '✖', 
+            'DANGER MORTEL : Vasoconstriction extrême, risque de convulsions, AVC, crise cardiaque.');
+
+        setInteraction('Amphetamines', '2C-x', 'unsafe', '☠', 
+            'DANGER : Charge cardiaque excessive, hypertension, anxiété extrême, vasoconstriction.');
+
+        setInteraction('Amphetamines', 'Cannabis', 'caution', '⚠', 
+            'EFFETS AMPLIFIÉS : Anxiété et paranoïa accrues, tachycardie, tension mentale.');
+
+        setInteraction('Amphetamines', 'Ketamine', 'unsafe', '☠', 
+            'DANGER : Charge cardiaque dangereuse, comportements maniaques, confusion, risque de blessure.');
+
+        setInteraction('Cocaine', 'LSD', 'caution', '⚠', 
+            'EFFETS AMPLIFIÉS : Anxiété extrême, paranoïa, bad trip probable, crash difficile.');
+
+        setInteraction('Cocaine', 'Mushrooms', 'caution', '⚠', 
+            'EFFETS AMPLIFIÉS : Anxiété importante, trip désagréable, nausées, paranoïa.');
+
+        setInteraction('Cocaine', 'DMT', 'caution', '⚠', 
+            'EFFETS AMPLIFIÉS : Anxiété pré-voyage, tachycardie, expérience désagréable, intégration difficile.');
+
+        setInteraction('Cocaine', 'Mescaline', 'unsafe', '☠', 
+            'DANGER : Charge cardiaque dangereuse, vasoconstriction, anxiété extrême, nausées.');
+
+        setInteraction('Cocaine', 'DOx', 'dangerous', '✖', 
+            'DANGER : Charge cardiaque excessive, vasoconstriction extrême, risque d\'AVC, durée longue.');
+
+        setInteraction('Cocaine', 'NBOMe', 'dangerous', '✖', 
+            'DANGER MORTEL : Vasoconstriction mortelle, risque de convulsions, AVC, crise cardiaque.');
+
+        setInteraction('Cocaine', '2C-x', 'unsafe', '☠', 
+            'DANGER : Charge cardiaque excessive, anxiété extrême, vasoconstriction dangereuse.');
+
+        setInteraction('Cocaine', 'Cannabis', 'caution', '⚠', 
+            'EFFETS AMPLIFIÉS : Paranoïa extrême, anxiété, tachycardie importante, expérience désagréable.');
+
+        setInteraction('Cocaine', 'Ketamine', 'unsafe', '☠', 
+            'DANGER : Charge cardiaque dangereuse, comportements imprévisibles, risque de blessure.');
+
+        setInteraction('a-PVP', 'LSD', 'unsafe', '☠', 
+            'DANGER : Stimulation excessive, anxiété extrême, paranoïa, psychose possible, bad trip garanti.');
+
+        setInteraction('a-PVP', 'Mushrooms', 'unsafe', '☠', 
+            'DANGER : Anxiété extrême, paranoïa, stimulation corporelle désagréable, psychose possible.');
+
+        setInteraction('a-PVP', 'MDMA', 'dangerous', '✖', 
+            'DANGER MORTEL : Neurotoxicité extrême, surchauffe, charge cardiaque mortelle, psychose.');
+
+        setInteraction('a-PVP', 'Amphetamines', 'dangerous', '✖', 
+            'DANGER MORTEL : Charge cardiaque excessive, psychose stimulante, comportements dangereux, AVC.');
+
+        setInteraction('a-PVP', 'Cocaine', 'dangerous', '✖', 
+            'DANGER MORTEL : Risque de crise cardiaque, psychose, comportements violents, overdose facile.');
+
+        setInteraction('a-PVP', '4-MMC', 'dangerous', '✖', 
+            'DANGER MORTEL : Neurotoxicité massive, surchauffe, charge cardiaque mortelle, psychose.');
+
+        setInteraction('a-PVP', 'Cannabis', 'unsafe', '☠', 
+            'DANGER : Paranoïa extrême, anxiété massive, psychose possible, expérience terrifiante.');
+
+        setInteraction('a-PVP', 'Alcohol', 'dangerous', '✖', 
+            'DANGER : Déshinibition extrême, comportements violents, blackout, charge cardiaque.');
+
+        setInteraction('a-PVP', 'Benzodiazepines', 'unsafe', '☠', 
+            'DANGER : Déshinibition extrême, comportements dangereux, amnésie, risque de surdose.');
+
+        setInteraction('4-MMC', 'LSD', 'caution', '⚠', 
+            'EFFETS AMPLIFIÉS : Stimulation mentale intense, anxiété possible, neurotoxicité augmentée.');
+
+        setInteraction('4-MMC', 'Mushrooms', 'caution', '⚠', 
+            'EFFETS AMPLIFIÉS : Expérience stimulante mais confuse, nausées, neurotoxicité.');
+
+        setInteraction('4-MMC', 'Cannabis', 'caution', '⚠', 
+            'EFFETS AMPLIFIÉS : Anxiété possible, confusion, tachycardie augmentée.');
+
+        setInteraction('4-MMC', 'Ketamine', 'unsafe', '☠', 
+            'DANGER : Charge cardiaque, confusion extrême, neurotoxicité, risque de blessure.');
+
+        setInteraction('4-MMC', 'Amphetamines', 'dangerous', '✖', 
+            'DANGER : Neurotoxicité sévère, charge cardiaque excessive, surchauffe, épuisement.');
+
+        setInteraction('4-MMC', 'Cocaine', 'dangerous', '✖', 
+            'DANGER : Charge cardiaque dangereuse, neurotoxicité, anxiété extrême, risque cardiaque.');
+
+        setInteraction('4-MMC', 'Alcohol', 'unsafe', '☠', 
+            'DANGER : Neurotoxicité augmentée, déshydratation extrême, masquage effets, surconsommation.');
+
+        setInteraction('4-MMC', 'Tramadol', 'dangerous', '✖', 
+            'DANGER MORTEL : Syndrome sérotoninergique, convulsions, hyperthermie.');
+
+        setInteraction('Caffeine', 'LSD', 'caution', '⚠', 
+            'EFFETS AMPLIFIÉS : Anxiété augmentée, stimulation corporelle désagréable, pensées rapides.');
+
+        setInteraction('Caffeine', 'Mushrooms', 'caution', '⚠', 
+            'EFFETS AMPLIFIÉS : Anxiété possible, nausées accrues, stimulation corporelle.');
+
+        setInteraction('Caffeine', 'MDMA', 'caution', '⚠', 
+            'EFFETS AMPLIFIÉS : Déshydratation augmentée, anxiété, charge cardiaque accrue.');
+
+        setInteraction('Caffeine', 'Amphetamines', 'caution', '⚠', 
+            'EFFETS AMPLIFIÉS : Anxiété extrême, tachycardie, insomnie garantie, nervosité.');
+
+        setInteraction('Caffeine', 'Cannabis', 'low-risk-neutral', '⊙', 
+            'EFFETS VARIABLES : Peut augmenter anxiété ou améliorer concentration selon personne.');
+
+        setInteraction('Caffeine', 'Ketamine', 'low-risk-neutral', '⊙', 
+            'EFFETS NEUTRES : Peu d\'interaction notable, stimulation légère pendant dissociation.');
+
+        setInteraction('Caffeine', 'Alcohol', 'caution', '⚠', 
+            'EFFETS MASQUÉS : Caféine masque ivresse, risque de surconsommation d\'alcool, déshydratation.');
+
+        setInteraction('Caffeine', 'Benzodiazepines', 'low-risk-down', '↓', 
+            'EFFETS CONTRADICTOIRES : Caféine réduit sédation des benzos, peut causer anxiété.');
+
+        // ========== DÉPRESSEURS + PSYCHÉDÉLIQUES MANQUANTS ==========
+        setInteraction('Alcohol', 'LSD', 'low-risk-down', '↓', 
+            'EFFETS RÉDUITS : Trip affaibli, confusion mentale accrue, nausées possibles, gaspillage.');
+
+        setInteraction('Alcohol', 'Mushrooms', 'low-risk-down', '↓', 
+            'EFFETS RÉDUITS : Effets psychédéliques diminués, nausées augmentées, expérience moins claire.');
+
+        setInteraction('Alcohol', 'DMT', 'low-risk-down', '↓', 
+            'EFFETS RÉDUITS : Expérience DMT moins intense, nausées, confusion post-voyage.');
+
+        setInteraction('Alcohol', 'Mescaline', 'caution', '⚠', 
+            'EFFETS RÉDUITS/DANGEREUX : Trip affaibli mais nausées extrêmes, vomissements, déshydratation.');
+
+        setInteraction('Alcohol', 'DOx', 'unsafe', '☠', 
+            'DANGER : Nausées extrêmes, durée très longue désagréable, vasoconstriction, déshydratation.');
+
+        setInteraction('Alcohol', 'NBOMe', 'dangerous', '✖', 
+            'DANGER : Nausées extrêmes, convulsions possibles, vasoconstriction, risque de vomissements.');
+
+        setInteraction('Alcohol', '2C-x', 'caution', '⚠', 
+            'EFFETS RÉDUITS : Trip affaibli, nausées, confusion, déshydratation.');
+
+        setInteraction('Alcohol', 'Cannabis', 'caution', '⚠', 
+            'EFFETS AMPLIFIÉS : Spins (vertiges), nausées sévères, vomissements, anxiété, bad trip possible.');
+
+        setInteraction('Alcohol', 'Ketamine', 'dangerous', '✖', 
+            'DANGER MORTEL : Vomissements + étouffement, amnésie totale, dépression respiratoire, coma.');
+
+        setInteraction('Alcohol', 'MDMA', 'unsafe', '☠', 
+            'DANGER : Neurotoxicité accrue, déshydratation extrême, masquage effets, dommages au foie.');
+
+        setInteraction('Alcohol', 'Amphetamines', 'caution', '⚠', 
+            'EFFETS MASQUÉS : Alcool masqué par stimulation, surconsommation d\'alcool, blackout, charge cardiaque.');
+
+        setInteraction('Alcohol', 'Cocaine', 'dangerous', '✖', 
+            'DANGER : Formation de cocaéthylène (très toxique), charge cardiaque dangereuse, dommages au foie.');
+
+        setInteraction('Alcohol', 'a-PVP', 'dangerous', '✖', 
+            'DANGER : Déshinibition extrême, comportements violents, charge cardiaque, blackout.');
+
+        setInteraction('Alcohol', '4-MMC', 'unsafe', '☠', 
+            'DANGER : Neurotoxicité accrue, déshydratation extrême, masquage effets, surconsommation.');
+
+        setInteraction('Alcohol', 'Caffeine', 'caution', '⚠', 
+            'EFFETS MASQUÉS : Caféine cache ivresse, surconsommation d\'alcool, déshydratation.');
+
+        setInteraction('Alcohol', 'Tramadol', 'dangerous', '✖', 
+            'DANGER MORTEL : Dépression respiratoire, convulsions, nausées, risque de décès.');
+
+        setInteraction('GHB/GBL', 'LSD', 'unsafe', '☠', 
+            'DANGER : Trip confus et désagréable, risque de perte de conscience, amnésie.');
 
         // ========================================
         // 📝 AJOUTEZ VOS PROPRES INTERACTIONS :
